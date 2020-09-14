@@ -1,0 +1,76 @@
+body {
+    background: url("bg-image.png");
+    background-attachment: fixed
+}
+
+.text1 {
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    font-size: 120px;
+}
+
+.text2 {
+    font-family: "Papyrus", "fantasy";
+    font-size: 64px;
+}
+
+.linktext {
+    font-family: "Times New Roman";
+    font-size: 32px;
+    color: #00FF00;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(719deg);
+    }
+}
+
+.rotate {
+    animation: rotation 1s infinite linear;
+}
+
+.linkdiv {
+    margin-bottom: 150px;
+}
+
+.big_image {
+    width: 100%;
+}
+
+.gallery_area {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.gallery_column {
+    float: left;
+    width: 10%;
+    padding: 5px;
+    vertical-align: bottom;
+    transition: 0.3s;
+}
+
+.gallery_column:hover {
+    width: 60%;
+}
+
+.gallery_row {
+    padding: 4px;
+    height: 100%;
+}
+
+.gallery_row::after {
+    content: "";
+    clear: both;
+    display: table;
+    margin-bottom: 4px;
+}
+
+.gallery_image {
+    position: relative;
+    width: 100%;
+    height: auto;
+}

@@ -1,62 +1,66 @@
 <!DOCTYPE html>
+<html lang="pt-br">
 
 <head>
-    <title>sitio epico 2: electric boogaloo</title>
+    <meta charset="utf-8">
+    <title>Pagina Inicial</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
 <body>
-    <img src="title.gif" class="big_image">
-    <h1 class="text1">
-        Graphic design is my passion
-
-    </h1>
-    <p class="text2">
-        ola meu nome e gustavo benvindo ao meu site eestouaqui pra mostrar o meu protfolio de web design adn desenvovimento de websites and design de websites.
-    </p>
-    <div class="linkdiv">
-        <a class="linktext" href="https://gustavomaurmann.itch.io/" target="_blank">
-            --->LINK<---
-        </a>
-    </div>
-
-
-
-    <div class="rotate">
-        <p class="text2" class="rotate" style="text-align: center;">My work :)</p>
-    </div>
-    <div class="gallery_area">
-        <div class="gallery_row">
-            <div class="gallery_column">
-                <img src="pic1.jpg" class="gallery_image">
+    <section id="fixed-header">
+        <div class="header_overlay">
+            <div class="logo_div">
+                <img src="images/studio-logo.png" class="logo">
             </div>
-            <div class="gallery_column">
-                <img src="pic2.png" class="gallery_image">
-            </div>
-            <div class="gallery_column">
-                <img src="pic3.jpg" class="gallery_image">
-            </div>
-            <div class="gallery_column">
-                <img src="pic4.jpg" class="gallery_image">
+            <div class="header_buttons">
+                <a href="index.html" class="header_button header-button-current">
+                    <div class="button-text">Home</div>
+                </a>
+                <a href="games.html" class="header_button">
+                    <div class="button-text">Games</div>
+                </a>
+                <a href="webdesign.html" class="header_button">
+                    <div class="button-text">Web Design</div>
+                </a>
             </div>
         </div>
-        <div class="gallery_row">
-            <div class="gallery_column">
-                <img src="pic5.jpg" class="gallery_image">
-            </div>
-            <div class="gallery_column">
-                <img src="pic6.png" class="gallery_image">
-            </div>
-            <div class="gallery_column">
-                <img src="pic7.png" class="gallery_image">
-            </div>
-            <div class="gallery_column">
-                <img src="pic8.png" class="gallery_image">
+    </section>
+
+    <section id="hero-section" class="hero-section">
+        <img src="images/banner.jpg" class="hero-image">
+        <div class="hero-title">
+            <h1>Gustavo games</h1>
+            <h3>um dev baseado em brasilia, especialista em fazer jogo ruim</h3>
+            <div class="hero-text">
+                <p>Meu nome é Gustavo Maurmann, sou desenvolvedor de jogos.</p>
+                <ul>
+                    <li>Desenvolvimento de jogos com Unity e C#</li>
+                    <li>Programação C/C++</li>
+                    <li>WAMP Stack</li>
+                    <li>Web Design</li>
+                    <li>Modelagem e Animação 3D</li>
+                </ul>
             </div>
         </div>
-    </div>
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+    </section>
+
+    <section id="footer-section" class="contact-section">
+        <div class="contact-title">
+            <h1 style="color:#e0f3e0">Entre em contato!</h1>
+        </div>
+        <div class="contact-title">
+            <a href="mailto:gustavo.maurmann2@gmail.com">gustavo.maurmann2@gmail.com</a>
+        </div>
+        <div class="contact-area">
+
+            <a href="https://github.com/gustavomaurmann" target="_blank"><img class="contact-icon" src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png"></a>
+            <a href="https://store.steampowered.com/app/1034590/What_The_Duck/" target="_blank"><img class="contact-icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Steam_icon_logo.svg/1024px-Steam_icon_logo.svg.png"></a>
+            <a href="https://gustavomaurmann.itch.io/" target="_blank"><img class="contact-icon" src="https://img.icons8.com/windows/452/itch-io.png"></a>
+        </div>
+
+    </section>
 </body>
 
 </html>
